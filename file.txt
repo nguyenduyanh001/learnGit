@@ -1,0 +1,14 @@
+Bài 1: Một công ty có các chức danh như sau:
+ Công nhân, nhân viên văn phòng, kĩ sư. 
+ Mỗi chức danh cần quản lý các dữ liệu cơ bản: 
+ Họ tên, năm sinh, giới tính, địa chỉ, số điện thoại. 
+Mỗi chức danh sẽ đại diện thông tin cho một người.
+•	Chức danh công nhân có thêm các thuộc tính riêng: Cấp bậc (Ví dụ: Công nhân cấp 1, công nhân cấp 2)
+•	Chức danh kĩ sư có them thuộc tính: Chuyên ngành, tài liệu (Lưu thông tin bằng cấp, chứng chỉ)
+•	Nhân viên có thuộc tính: Công việc
+A.	Xây dựng các lớp: CongNhan, NhanVien, KiSu kế thừa từ lớp ChucDanh.
+Trong mỗi lớp thì cần có các phương thức cơ bản:
++ Thêm thông tin
++ Hiển thị thông tin
++ Tìm kiếm thông tin theo tên, năm sinh, giới tính, …
+B.	Tạo repo lưu trữ source code trên github
